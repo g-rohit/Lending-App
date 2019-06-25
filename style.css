@@ -10,13 +10,17 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
     color: #F7F5EB;
 }
 
+.bg-lil-white {
+        background: #f8f9fa !important;
+    /* color: #F7F5EB; */
+}
 .title {
     color: #44238b;
     padding: 15px;
-    font-size: 3em;
+    font-size: 1.5em;
 }
 .sub-title {
-    font-size: 1em;
+    font-size: .8em;
 }
 
 #login-page {
@@ -24,25 +28,26 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
     height: 100vh;
 }
 
-
-form {
-    width: 25% !important;
-}
-
+ 
 input {
 
     margin-bottom: 15px !important;
     border-radius: 10px !important;
     color: #5507fb;
-    padding: 25px !important;
-    font-size: 24px !important;
+    padding: 20px !important;
 
+
+}
+
+#content {
+    border: 1px solid #eaeced;
+    background: #ffffff;
 }
 
 
 .form-control:focus {
     border-color: #525252 !important;
-    box-shadow: 0 0 0 0.2rem #9c9c9c !important;
+    box-shadow: 0 0 0 0.1rem #9c9c9c !important;
 }
 
 .form-control {
@@ -54,21 +59,22 @@ input {
 
 
 ::placeholder {
-    color: #525252 !important;
+    color: #7c7c7c !important;
 line-height: 28.8px;
-    font-size: 18px !important;
+    font-size: 14px !important;
 }
+
 
 
 #loginBtn {
 
     color: #f7f5eb;
-    width: 150px;
-    border-radius: 50px;
+    width: 100%;
+    border-radius: 10px;
     border: 1px solid #5507fb;
-    line-height: 38.4px;
-    font-size: 24px;
-     background: linear-gradient(120deg, #44238b, #5100ffe1);
+    line-height: 30px;
+    font-size: 18px;
+     background: linear-gradient(90deg, #44238b, #5100ffe1);
     transition: .1s ease-out;
     height: auto;
     overflow: hidden;
@@ -79,27 +85,23 @@ line-height: 28.8px;
 
 #loginBtn:hover {
     color: #5507fb;
-    font-weight: 500;
     cursor: pointer;
     background: #f7f5eb;
     border: 1px solid #5507fb;
     transition: .1s ease-out;
     height: auto;
     overflow: hidden;
-}
-
+} 
 
 
 @media only screen and (max-width:786px) {
 
 
-    input {
+    /* input {
         width: 100% !important;
         margin-bottom: 15px !important;
         border-radius: 50px !important;
-    }
+    } */
 
-    form {
-        width: 100% !important;
-    }
+  
 }

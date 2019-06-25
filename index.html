@@ -15,10 +15,10 @@
 <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
 </head>
 
-<body class="bg-lite">
+<body class="bg-lil-white">
 <div class="container-fluid">
   <div class="row  d-flex align-items-center justify-content-center" id="login-page">
-    <div class="col"> <span class="text-center"> <img src="https://i.postimg.cc/wMKMYY65/logo-white.png" alt="logo"
+    <div class="col-lg-4 col-sm-12 col-xs-12 col-md-6" id="content"> <span class="text-center"> <img src="https://i.postimg.cc/wMKMYY65/logo-white.png" alt="logo"
             class="img-fluid d-block mx-auto" width="10%" height="auto"></span>
       <div class="text-center">
         <h1 class="title">Lending Money</h1>
@@ -27,14 +27,23 @@
       <!-- login form starts -->
       <div class="form-group d-block mx-auto">
         <form action="" method="post" class="mx-auto">
-          <input type="email" class="form-control" name="emailID" id="user-email" aria-describedby="helpId"
-              placeholder="Enter your first name" required>
+          <input type="number" class="form-control" name="mobileNumber" id="user-mobile-number" aria-describedby="helpNumber"
+              placeholder="Enter your mobile number" required>
           <input type="password" class="form-control" name="" id="user-pw" placeholder="Enter your password" required>
           <div class="text-center">
-            <button type="submit" class="btn btn-primary mt-3" id="loginBtn">LOGIN</button>
+            <button type="submit" class="btn btn-primary mt-3" id="loginBtn">Log in</button>
           </div>
         </form>
         <!-- login form ends--> 
+        <div class="text-center mt-3">
+          <a href="" class="text-secondary ">Having trouble logging in?</a>
+        </div>
+        <div class="text-center mt-3">
+<p>or</p>
+        </div>
+        <div class="text-center">
+          <button type="submit" class="btn btn-secondary bg-light text-dark w-100" id="sign-Up-Btn">Sign up</button>
+        </div>
       </div>
     </div>
   </div>
