@@ -1,73 +1,75 @@
 <!doctype html>
 <html lang="en">
-<head>
-<title>Lending App</title>
-<!-- Required meta tags -->
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<!-- Bootstrap CSS -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+<head>
+  <title>Lending App</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<link rel="stylesheet" href="style.css">
-<!-- font -->
-<link href="https://fonts.googleapis.com/css?family=Stylish&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <!-- font -->
+  <link href="https://fonts.googleapis.com/css?family=Stylish&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
 </head>
 
 <body class="bg-lil-white">
-<div class="container-fluid">
-  <div class="row  d-flex align-items-center justify-content-center" id="login-page">
-    <div class="col-lg-4 col-sm-12 col-xs-12 col-md-6" id="content"> <span class="text-center"> <img src="https://i.postimg.cc/wMKMYY65/logo-white.png" alt="logo"
-            class="img-fluid d-block mx-auto" width="10%" height="auto"></span>
-      <div class="text-center">
-        <h1 class="title">Lending Money</h1>
-        <p class="sub-title">Now easily lend or borrow money in need without any hassles.</p>
-      </div>
-      <!-- login form starts -->
-      <div class="form-group d-block mx-auto">
-        <form action="" method="post" class="mx-auto">
-          <input type="tel" class="form-control" name="mobileNumber" id="user-mobile-number" aria-describedby="helpNumber"
-              placeholder="Enter your mobile number" required>
-          <input type="password" class="form-control" name="" id="user-pw" placeholder="Enter your password" required>
-          <div class="text-center">
-            <button type="submit" class="btn btn-primary mt-3" id="loginBtn">Log in</button>
-          </div>
-        </form>
-        <!-- login form ends--> 
-        <div class="text-center mt-3">
-          <a href="" class="text-secondary ">Having trouble logging in?</a>
-        </div>
-        <div class="text-center mt-3">
-<p>or</p>
-        </div>
+  <div class="container-fluid" id="main">
+    <div class="row  d-flex align-items-center justify-content-center" id="login-page">
+      <div class="col-lg-4 col-sm-12 col-xs-12 col-md-6" id="content"> <span class="text-center"> <img src="logo.png"
+            alt="logo" class="img-fluid d-block mx-auto" width="10%" height="auto"></span>
         <div class="text-center">
-          <button type="submit" class="btn btn-secondary bg-light text-dark w-100" id="sign-Up-Btn">Sign up</button>
+          <h1 class="title">Lending Money</h1>
+          <p class="sub-title">Now easily lend or borrow money in need without any hassles.</p>
+        </div>
+        <!-- login form starts -->
+        <div class="form-group d-block mx-auto">
+          <form action="" method="post" class="mx-auto" autocomplete="off">
+            <input type="tel" class="form-control" name="mobileNumber" id="user-mobile-number"
+              aria-describedby="helpNumber" placeholder="Enter your mobile number" required>
+            <input type="password" class="form-control" name="" id="user-pw" placeholder="Enter your password" required>
+            <div class="text-center">
+              <button type="submit" class="btn btn-primary mt-3" id="loginBtn">Log in</button>
+            </div>
+          </form>
+          <!-- login form ends-->
+          <div class="text-center mt-3">
+            <a href="" class="">Having trouble logging in?</a>
+          </div>
+          <div class="text-center mt-3">
+            <p>or</p>
+          </div>
+          <div class="text-center">
+            <button type="submit" class="btn" id="sign-Up-Btn">Sign up</button>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
 
-  <!-- footer -->
-  <footer>
-    <div class="row mx-auto">
-<div class="col text-center">
-  &copy; Lending App · <a href="">Privacy & terms</a>
-</div>
     </div>
-  </footer>
-</div>
 
-<!-- Optional JavaScript --> 
-<!-- jQuery first, then Popper.js, then Bootstrap JS --> 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    <!-- footer -->
+    <div class="row footer">
+
+        <div class="col">
+          &copy; Lending App · <a href="">Privacy & terms</a>
+        </div>
+      </div>
+   </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-  </script> 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
     integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-  </script> 
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
   </script>
 </body>
+
 </html>
