@@ -1,0 +1,111 @@
+body {
+    /* font-family: 'Stylish', sans-serif !important; */
+    font-family: 'Yanone Kaffeesatz', sans-serif !important;
+}
+.bg-darkblue {
+    background: #44238b !important;
+    color: #F7F5EB;
+}
+
+#title {
+    color: #04ffff !important;
+    padding: 15px;
+    font-size: 3em;
+}
+
+#login-page {
+
+    height: 100vh;
+}
+
+input {
+    width: 30% !important;
+    margin: 0 auto;
+    border-radius: 50px !important;
+    color: #5507fb;
+    padding: 25px !important;
+    font-size: 24px !important;
+
+}
+
+#helpId {
+    width: 30% !important;
+    margin: 0 auto;
+   letter-spacing: 3px;
+padding: 15px !important;
+}
+
+.form-control:focus {
+border-color: #9a6bff !important;
+box-shadow: 0 0 0 0.2rem #58d8f6 !important;
+}
+
+.form-control {
+    color: #f7f5eb !important;
+    background-color: #9a6bff !important;
+    border: 1px solid #5507fb !important;
+}
+
+
+::placeholder {
+    color: #5100ffe1  !important;
+    padding: 5px !important;
+}
+
+
+#loginBtn {
+    
+    color: #44238b;
+    width: 150px;
+    border-radius: 50px;
+    border: none;
+    font-size: 24px;
+    line-height: 30px;
+    padding-top: 10px;
+    background: linear-gradient(45deg, #04ffff,#04cff3);
+    background-size: 400% 400%;
+    
+    -webkit-animation: AnimationName 10s ease infinite;
+    -moz-animation: AnimationName 10s ease infinite;
+    animation: AnimationName 10s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 9%}
+    50%{background-position:100% 92%}
+    100%{background-position:0% 9%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 9%}
+    50%{background-position:100% 92%}
+    100%{background-position:0% 9%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 9%}
+    50%{background-position:100% 92%}
+    100%{background-position:0% 9%}
+}
+        #loginBtn:hover {
+color: #5507fb;
+font-weight: 500;
+            cursor: pointer;
+        }
+
+ 
+
+@media only screen and (max-width:786px) {
+
+    
+input {
+    width: 100% !important;
+    margin: 0 auto;
+    border-radius: 50px !important;
+}
+
+#helpId {
+    width: 100% !important;
+    margin: 0 auto;
+   
+padding: 15px !important;
+}
+}
